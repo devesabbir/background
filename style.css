@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.midwidth {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.headerpart {
+    background: #34495E;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.headerpart ul {
+    list-style: none;
+}
+
+.headerpart ul li {
+    display: inline-block;
+    margin: 8px;
+}
+
+.headerpart ul li a {
+    display: inline-block;
+    background: #E67E22;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #34495E;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.headerpart ul li a:hover {
+    background: orange;
+    color: #fff;
+    transition: .3s;
+}
+
+
+.sliderpart {
+    background: url(https://i.ibb.co/XFN7t2k/stylish-hexagonal-line-pattern-background-1017-19742.jpg) fixed;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.sliderpart h1 {
+    color: black;
+    padding: 15px 72px;
+}
+
+.sliderpart p {
+    color: black;
+    padding: 15px 72px;
+}
+
+.sliderpart a {
+    display: inline-block;
+    background: #DC3545;
+    text-decoration: none;
+    padding: 10px 12px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.sliderpart a:hover {
+    background: black;
+    color: #E67E22;
+    transition: .3s;
+}
+
+
+.contentpart {
+    background: #D35400;
+    text-align: center;
+    padding: 75px 0px;
+}
+
+.contentpart p {
+    padding: 0px 50px;
+    color: #fff;
+}
+
+.contentpart ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.contentpart ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.contentpart ul li h6 {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+
+.footerpart {
+    background: #2C3E50;
+    text-align: center;
+}
+
+.footerpart h6 {
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 15px;
+    text-shadow: 0px 0px 0px black;
+    color: #fff;
+}
+
+.footerpart ul {
+    list-style: none;
+}
+
+.footerpart ul li {
+    display: inline-block;
+    margin: 8px;
+}
+
+.footerpart ul li a {
+    display: inline-block;
+    background: #E67E22;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #34495E;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.footerpart ul li a:hover {
+    background: orange;
+    color: #fff;
+    transition: .3s;
+}
